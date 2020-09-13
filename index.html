@@ -8,19 +8,23 @@
 	<link href="https://file.myfontastic.com/W4H7sUzTaq4Uo2Azu4LZFb/icons.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Alata&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 	<script src="js/smooth-scroll.polyfills.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 </head>
 <body>
 	<main>
 		<header class="header" id="home">
 		<div class="mark"><img src="images/mark.png" alt=""></div>
+		
 		<a href="#servicios"><div class="rs-arrow"></div></a>
-		<nav class="margin-inside stick" id="menu">
-			<ul>
-				<li><a data-scroll class="link" href="#servicios"><i class="rs-list"></i><span>Services</span></a></li>
-				<li><a class="link" href="#sitios"><i class="rs-porta"></i>Portafolio</a></li>
+		<nav class="stick" id="menu">
+			<a class="logo-movil" href="#home"><img src="images/logo-wb.png" alt=""></a>
+			<i class="rs-mov icon-movil-menu"></i>
+			<ul class="margin-inside-movil">
+				<li><a class="link servi enla" href="#servicios"><i class="rs-list"></i><span>Services</span></a></li>
+				<li><a class="link sitio enla" href="#sitios"><i class="rs-porta"></i><span>Portafolio</span></a></li>
 				<li><a class="logo" href="#home"></a></li>
-				<li><a class="link" href="#disenos"><i class="rs-design"></i>Design</a></li>
-				<li><a class="link" href="#contact"><i class="rs-key"></i>Contact</a></li>
+				<li><a class="link diseno enla" href="#disenos"><i class="rs-design"></i><span>Design</span></a></li>
+				<li><a class="link conta enla" href="#contact"><i class="rs-key"></i><span>Contact</span></a></li>
 			</ul>
 		</nav>
 		<!-- <div class="slider"></div> -->
@@ -101,22 +105,24 @@
 			<div class="learn margin-inside">
 				<h1>LEARNING</h1>
 				<div class="list-learn">
-					<div class="img-cap">
-						<img src="images/learn-1.jpg" alt="">
+					<div class="list-learn-1">
+						<div class="img-cap">
+							<img src="images/learn-1.jpg" alt="">
+						</div>
+						<div class="desc-cap">
+							<h2>Capacitaciones</h2>
+							<p>Con el auge de la tecnologia; los programas y aplicaciones de la web se han actualizado, por la que nosotros llevamos el aprendizaje con capacitaciones de estas diversas aplicaciones.</p>
+						</div>
 					</div>
-					<div class="desc-cap">
-						<h2>Capacitaciones</h2>
-						<p>Con el auge de la tecnologia; los programas y aplicaciones de la web se han actualizado, por la que nosotros llevamos el aprendizaje con capacitaciones de estas diversas aplicaciones.</p>
+					<div class="list-learn-2">
+						<div class="img-tut">
+							<img src="images/learn-2.jpg" alt="">
+						</div>
+						<div class="desc-tut">
+							<h2>Tutoriales</h2>
+							<p>Puedes revisar nuestros videotutoriales de informática, donde cubrimos diseño grafico, programación y uso de algunas aplicaciones  que ayudaran  mucho en el desenvolvimiento  de su aprendizaje. Visita nuestro canal de Youtube</p>
+						</div>
 					</div>
-					
-					<div class="img-tut">
-						<img src="images/learn-2.jpg" alt="">
-					</div>
-					<div class="desc-tut">
-						<h2>Tutoriales</h2>
-						<p>Puedes revisar nuestros videotutoriales de informática, donde cubrimos diseño grafico, programación y uso de algunas aplicaciones  que ayudaran  mucho en el desenvolvimiento  de su aprendizaje. Visita nuestro canal de Youtube</p>
-					</div>
-					
 				</div>
 			</div>
 			<div class="social-rib">
@@ -149,7 +155,7 @@
 						<p>Soy Jasiel Juica, bachiller en Ing. de Sistemas, Técnico en Computación e informática y redes de conectividad, especializado en diseño web y diseño gráfico. Apasionado de la tecnología y del diseño tanto gráfico y del de interfaces.</p>
 					</div>
 					<div class="about-image">
-						<img src="images/yo.jpg" alt="">
+						<img src="/images/yo.jpg" alt="">
 					</div>
 				</div>
 			</div>
