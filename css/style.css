@@ -358,9 +358,16 @@ body {
 	}
 	.list-learn {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: center;
+		align-items: center;
+	}
+	.list-learn-1 {
+		display: flex;
+	}
+	.list-learn-2 {
+		display: flex;
 	}
 		[class$=-cap], [class$=-tut] {
 			box-sizing: border-box;
